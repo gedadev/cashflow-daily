@@ -1,0 +1,15 @@
+{
+  "name": "cashflow-daily",
+  "version": "1.0.0",
+  "description": "This is a React app to manage your daily cash balance, with a expense tracking feature and pending payments control, to calculate your daily earnings.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "dev": "npm run backend & npm run frontend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
